@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const owerSchema = mongoose.Schema({
+const ownerSchema = mongoose.Schema({
     fullname:String,
     email:String,
     password:String,
@@ -15,4 +15,4 @@ const owerSchema = mongoose.Schema({
 
 })
 
-export {owerSchema};
+export { ownerSchema };
